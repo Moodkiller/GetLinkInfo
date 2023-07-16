@@ -4,7 +4,7 @@
 
 ### Usage:
 `getlinkinfo-v2.php?url=ABC`   
-Enable with `+/-Linkinfo` when on a channel    
+Enable with `+/-Linkinfo` when on a channel (and have mod status)    
 The mIRC script is set to parse for links automatically and feed the url to the hosted phps script when enabled on a channel. 
 
 ### Output (web):
@@ -14,19 +14,20 @@ The mIRC script is set to parse for links automatically and feed the url to the 
 <img width="954" alt="image" src="https://github.com/Moodkiller/GetLinkInfo/assets/11341653/0574d2aa-64f8-48df-8928-bb21fed62843">
 
 ### Features (PHP):
-* Toggle for debugging / easy to find where the "title" is located in the pulled HTML
-* Can scrape YouTube Titles without an API
-* Lightweight
-* Only requires PHP
-* Shows PHP errors by default
-* Shows preview of Image if an image is found and outputs relevant data   
+* Toggle for debugging / easy to find where the "title" is located in the pulled HTML.
+* Can scrape YouTube titles without an API.
+* Output is placed within `<linkinfo>` tags taht can easly parsed by other services. I.e the aforementioend mIRC script.
+* Lightweight.
+* Only requires PHP.
+* Shows PHP errors by default.
+* Shows preview of Image if an image is found and outputs relevant data:   
    <img width="323" alt="image" src="https://github.com/Moodkiller/GetLinkInfo/assets/11341653/fb504d3c-e9a5-4505-9118-a064d4d1bee3">
 
 ### Features (mIRC):
-* Can be enabled (or disabled) per channel by issuing `+/-Linkinfo` as an owner of the script
-* Context menu (easily enable or disable silently)
-* Ignore user/nick list (edit this [line](https://github.com/Moodkiller/GetLinkInfo/blob/main/GetLinkInfo.mrc#L21))
+* Can be enabled (or disabled) per channel by issuing `+/-Linkinfo` as an owner of the script.
+* Context menu (easily enable or disable silently).
+* Ignore user/nick list (edit this [line](https://github.com/Moodkiller/GetLinkInfo/blob/main/GetLinkInfo.mrc#L21)).
 
 ### Limitations:
-* Doesnt work on sites that require cookies and/or Javascript
-* Doesnt work on sites that have more than 20 redirects
+* Doesnt work on sites that require cookies and/or Javascript.
+* Doesnt work on sites that have more than 20 redirects.
