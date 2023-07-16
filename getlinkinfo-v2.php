@@ -57,7 +57,7 @@ if (strpos($contentType, 'image') !== false) {
     curl_setopt($ch, CURLOPT_URL, $url);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
-	curl_setopt($ch, CURLOPT_MAXREDIRS, 50); // Increase the maximum number of redirects
+    curl_setopt($ch, CURLOPT_MAXREDIRS, 50); // Increase the maximum number of redirects
     curl_setopt($ch, CURLOPT_USERAGENT, $userAgent);
     curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
     curl_setopt($ch, CURLOPT_REFERER, $url);
