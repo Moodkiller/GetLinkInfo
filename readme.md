@@ -1,6 +1,8 @@
 ### Setup
 1. Copy `getlinkinfo-v2.php` to your server or website.
-2. Copy `GetLinkInfo.mrc` to your mIRC script directory and load with `/load scripts/GetLinkInfo.mrc`
+2. Copy `GetLinkInfo.mrc` to your mIRC script directory and load with `/load -a scripts/GetLinkInfo.mrc`.
+   * If using your own webserver, change this line to match: https://github.com/Moodkiller/GetLinkInfo/blob/main/GetLinkInfo.mrc#L66
+   * Any changes can be reloaded with the `/reload -a scripts/GetLinkInfo.mrc`.
 
 ### Usage:
 `getlinkinfo-v2.php?url=ABC`   
