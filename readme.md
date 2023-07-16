@@ -1,10 +1,10 @@
 ### Setup
-1. Copy `getlinkinfo-v2.php` to your server / public facing url
+1. Copy `getlinkinfo-v2.php` to your server or website.
 2. Copy `GetLinkInfo.mrc` to your mIRC script directory and load with `/load scripts/GetLinkInfo.mrc`
-
 
 ### Usage:
 `getlinkinfo-v2.php?url=ABC`
+The mIRC script is set to parse for links automatically when enabled on a channel
 
 ### Output (web):
 <img width="1043" alt="image" src="https://github.com/Moodkiller/GetLinkInfo/assets/11341653/e4b7fb83-e75a-4dde-ac35-63e0dbec286d">
