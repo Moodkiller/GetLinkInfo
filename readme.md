@@ -3,8 +3,8 @@
 2. Copy `GetLinkInfo.mrc` to your mIRC script directory and load with `/load scripts/GetLinkInfo.mrc`
 
 ### Usage:
-`getlinkinfo-v2.php?url=ABC`
-Enable with `+/-Linkinfo` when on a channel 
+`getlinkinfo-v2.php?url=ABC`   
+Enable with `+/-Linkinfo` when on a channel    
 The mIRC script is set to parse for links automatically and feed the url to the hosted phps script when enabled on a channel. 
 
 ### Output (web):
