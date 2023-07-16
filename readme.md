@@ -1,7 +1,7 @@
 ### Setup
 1. Copy `getlinkinfo-v2.php` to your server or website.
 2. Copy `GetLinkInfo.mrc` to your mIRC script directory and load with `/load -a scripts/GetLinkInfo.mrc`.
-   * If using your own webserver, change this line to match: https://github.com/Moodkiller/GetLinkInfo/blob/main/GetLinkInfo.mrc#L66
+   * If using your own webserver, change [this line]( https://github.com/Moodkiller/GetLinkInfo/blob/main/GetLinkInfo.mrc#L66) to match.
    * Any changes can be reloaded with the `/reload -a scripts/GetLinkInfo.mrc`.
 
 ### Usage:
@@ -34,3 +34,4 @@ The mIRC script is set to parse for links automatically and feed the url to the 
 ### Limitations:
 * Doesnt work on sites that require cookies and/or Javascript.
 * Doesnt work on sites that have more than 20 redirects.
+* Depending on your server configureation, `https` connections may not work.
