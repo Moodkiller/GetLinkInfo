@@ -10,10 +10,10 @@ Enable with `+/-Linkinfo` when on a channel (and have mod status)
 The mIRC script is set to parse for links automatically and feed the url to the hosted phps script when enabled on a channel. 
 
 ### Output (web):
-<img width="1043" alt="image" src="https://github.com/Moodkiller/GetLinkInfo/assets/11341653/e4b7fb83-e75a-4dde-ac35-63e0dbec286d">
+![image](https://github.com/Moodkiller/GetLinkInfo/assets/11341653/4e0d4668-ce75-4cb2-a056-bbc3685682ea)
 
 ### Output (irc):
-<img width="954" alt="image" src="https://github.com/Moodkiller/GetLinkInfo/assets/11341653/0574d2aa-64f8-48df-8928-bb21fed62843">
+![image](https://github.com/Moodkiller/GetLinkInfo/assets/11341653/df9513d6-a874-403d-88f8-4b683eef828c)
 
 ### Features (PHP):
 * Toggle for debugging / easy to find where the "title" is located in the pulled HTML.
@@ -23,7 +23,7 @@ The mIRC script is set to parse for links automatically and feed the url to the 
 * Only requires PHP.
 * Shows PHP errors by default.
 * Shows preview of Image if an image is found and outputs relevant data:   
-   <img width="323" alt="image" src="https://github.com/Moodkiller/GetLinkInfo/assets/11341653/fb504d3c-e9a5-4505-9118-a064d4d1bee3">
+   ![image](https://github.com/Moodkiller/GetLinkInfo/assets/11341653/b5e1267c-62e4-45a3-b166-07accc97b407)
 
 ### Features (mIRC):
 * Can be enabled (or disabled) per channel by issuing `+/-Linkinfo` as an [owner or mod](https://github.com/Moodkiller/GetLinkInfo/blob/main/GetLinkInfo.mrc#L27) of the script.
