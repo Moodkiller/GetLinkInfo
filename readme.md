@@ -25,6 +25,7 @@ The mIRC script is set to parse for links automatically and feed the url to the 
 ### Features (mIRC):
 * Can be enabled (or disabled) per channel by issuing `+/-Linkinfo` as an owner of the script
 * Context menu (easily enable or disable silently)
+* Ignore user/nick list (edit this [line](https://github.com/Moodkiller/GetLinkInfo/blob/main/GetLinkInfo.mrc#L21))
 
 ### Limitations:
 * Doesnt work on sites that require cookies and/or Javascript
