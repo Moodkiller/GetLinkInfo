@@ -4,7 +4,8 @@
 
 ### Usage:
 `getlinkinfo-v2.php?url=ABC`
-The mIRC script is set to parse for links automatically when enabled on a channel
+Enable with `+/-Linkinfo` when on a channel 
+The mIRC script is set to parse for links automatically and feed the url to the hosted phps script when enabled on a channel. 
 
 ### Output (web):
 <img width="1043" alt="image" src="https://github.com/Moodkiller/GetLinkInfo/assets/11341653/e4b7fb83-e75a-4dde-ac35-63e0dbec286d">
@@ -23,7 +24,7 @@ The mIRC script is set to parse for links automatically when enabled on a channe
 
 ### Features (mIRC):
 * Can be enabled (or disabled) per channel by issuing `+/-Linkinfo` as an owner of the script
-* 
+* Context menu (easily enable or disable silently)
 
 ### Limitations:
 * Doesnt work on sites that require cookies and/or Javascript
