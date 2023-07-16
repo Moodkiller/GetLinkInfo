@@ -23,7 +23,7 @@ The mIRC script is set to parse for links automatically and feed the url to the 
 * Only requires PHP.
 * Shows PHP errors by default.
 * Shows preview of Image if an image is found and outputs relevant data:   
-   ![image](https://github.com/Moodkiller/GetLinkInfo/assets/11341653/b5e1267c-62e4-45a3-b166-07accc97b407)
+   <img src="https://github.com/Moodkiller/GetLinkInfo/assets/11341653/b5e1267c-62e4-45a3-b166-07accc97b407" width="255px">
 
 ### Features (mIRC):
 * Can be enabled (or disabled) per channel by issuing `+/-Linkinfo` as an [owner or mod](https://github.com/Moodkiller/GetLinkInfo/blob/main/GetLinkInfo.mrc#L27) of the script.
